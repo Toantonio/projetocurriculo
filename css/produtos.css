@@ -1,0 +1,134 @@
+#produtos{
+	
+	
+	background-color: #F5FFFA;
+	height: 1320px;
+	
+
+}
+#novidades{
+	background-color: #eee;
+	height: 680px;
+}
+.pro_02{/*  torta <p>*/
+	font-size: 25px;
+	color: #FF4500;
+	padding-top:25px;
+	padding-left: 48px;
+	text-align: left;
+	
+}
+.pro01{ /*Produtos</h2>*/
+	font-size: 50px;
+	padding-left:50px;
+	padding-top:40px;
+	font-family: italic;
+	color: #FF4500;
+}
+.pro{/* div*/
+	background-color: #eee;
+    width:900px;
+	margin: 0 auto;
+}
+/*demosnstracao
+*****************************************/
+#demosnstracao{
+	background-color: #eee;
+}
+.redondo1{ 
+	padding-right: 40px;
+	padding-left: 40px;}
+.redondo1 .redondo{/* div p */
+	padding:25px;
+	float: left;
+	width:25%;
+	text-align:center;
+}
+.redondo1 .redondo img{/* div p */
+	width: 100%;
+	padding: 3px;
+ 	border-radius: 40%;;
+}
+.redondo1 .redondo img:hover{
+	width: 80%;}
+.dir{
+	padding-left: 27px;
+}
+
+.redondo .direita{
+	float: right;
+	padding-left: 15px;
+text-align: center;
+}
+.redondo .direita a{
+
+	font-size: 14px;
+	border: solid #008000;
+	background-color:#008000;
+	border-radius:10px;
+	width:105px;
+
+}
+ .redondo .esquerda{/*valor */
+	/* padding-right: 30px; */
+}
+	
+.pro div{/* div p */
+	padding: 20px ;
+	float: left;
+	width:50%;
+	text-align:center;
+}
+.pro div img{/* div p */
+	 width: 95%;
+	 padding: 3px;
+ 	border-radius: 15px;
+}
+.pro div img:hover{
+	width: 80%;
+	
+}
+
+.clearfix::after{/*essa classe junto com estes cinco teg e usado para ajeitar a flutuação*/
+    display: table;
+    float: none;
+    content:"";
+    clear: both;
+    overflow: auto;
+}
+
+
+.pro div h3{
+	float:left;
+	display: block;	
+	padding-right: 20px;
+	
+}
+.direita{
+	padding-left: 27px;
+}
+.direita a{
+float: left;
+	
+border: solid #008000;
+background-color:#008000;
+border-radius:10px;
+width:105px;
+
+}
+.esquerda{
+float: left;
+padding-left: 80px;
+
+}
+
+
+	
+a{
+	padding-left: 5px 5px;
+	color:#FF0000;
+	
+}
+a:hover{
+	color: #00FF7F;
+}

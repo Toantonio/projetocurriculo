@@ -1,0 +1,28 @@
+
+
+
+
+
+#propaganda1{
+	background-image: url(../img/propaganda/p200x1000-01.jpg);
+	
+	width:100%;
+	height: 160px;
+}
+
+#propaganda2{
+	background-image: url(../img/propaganda/p200x1000.jpg);
+	
+	width:100%;
+	height: 140px;
+	
+}
+#comentarios{
+	background-color: #FFFFFF;
+	height: 500px;
+}
+#rodape{
+	background-color: #20B2AA;
+	height: 150px;
+}
+
