@@ -3,139 +3,214 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Rafa Gourmet</title>
-	<link rel="icon" type="imagen/X-icon" href="Rafa Gourmet ICON.png">
-	<link rel="stylesheet" href="css/defaelt.css"/>
+	<meta name="author" content="toantonio"><!--define o altor-->
+	<link rel="icon" type="imagen/X-icon" href="Rafa Gourmet ICON.png"> <!--iconi na aba-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--ajuda responsividade-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><!--pra se adequar au explorer-->
+	<meta name="keywords" content="HTML, CSS, JavaScript"><!--butão de busca-->
+	<link rel="stylesheet" href="css/site.css"/>
 	<link rel="stylesheet" href="css/reset.css"/>
 	<link rel="stylesheet" href="css/logo_nav.css"/>
-<link rel="stylesheet" href="css/produtos.css"/>
+	<link rel="stylesheet" href="css/produtos.css"/>
+	<link rel="stylesheet" href="css/padrão.css"/>
 </head>
 <body>
 	<!-- logo -->
-	<header class="clearfix">
-	<img src="Rafa Gourmet logo.png" height="150px" alt="logo da empresa" class="imglogo"/>
-		<div class="menu esquerda metade" >
+	<header class="row respansive container float">		
+		<div class="logo col-6">
+			<img src="Rafa Gourmet logo.png" height="150px" alt="logo da empresa" class="imglogo"/>
+		</div>
+		<div class="menu">	
+			<button>buscar<input type="keyword" class="buscar"></button>
 			<ul>
 				<li><a href="">inicio</a></li>
 				<li><a href=""  target="blanck">Entrar</a></li>
 				<li><a href="">Facebook</a></li>
 				<li><a href="">Carrinho</a></li>
+				<li><a href="">Aria de Emtrega</a></li>
 			</ul>
 		</div>
+	</header>
 	
-	</body>
-	
-	<nav>
+	<nav  class="row respansive container float">
 		
 	</nav>
-	<section id="demosnstracao" class="clearfix">
-		<h2 class="pro01">Alguns produtos</h2>
-		
-		<div class="redondo1">
-			
-			<div class="redondo">
-				<p class="pro_02">Tortas</p>
-					<a href="https://www.ranoya.com/books/public/css/corescss.php" target="blanck"><img src="img/produtos/produto03.jpg" width="150px" alt="tortsa da casa"/></a>
-				<h3 class="esquerda metade">R$:00,00</h3>
-				<h3 class="direita metade"><a href="#" target="blanck">COMPRAR</a></h3>
-			</div>
-			<div class="redondo">
-				<p class="pro_02">Tortas</p>
-				<img src="img/produtos/produto03.jpg" width="150px" alt="tortsa da casa"/>
-				<h3 class="esquerda metade">R$:00,00</h3>
-				<h3 class="direita metade"><a href="#" target="blanck">COMPRAR</a></h3>
-			</div>
-			
-			<div class="redondo">
-				<p class="pro_02">Tortas</p>
-				<img src="img/produtos/produto03.jpg" width="150px" alt="tortsa da casa"/>
-				<h3 class="esquerda metade">R$:00,00</h3>
-				<h3 class="direita metade"><a href="#" target="blanck">COMPRAR</a></h3>
-			</div>
-			<div class="redondo">
-				<p class="pro_02">Tortas</p>
-				<img src="img/produtos/produto03.jpg" width="150px" alt="tortsa da casa"/>
-				<h3 class="esquerda metade">R$:00,00</h3>
-				<h3 class="direita metade"><a href="#" target="blanck">COMPRAR</a></h3>
-			</div>
+	<section id="demosnstracao" class="row respansive container float">
+		<div class="pro01 ">
+			<p >Uma Amostra</p>
 		</div>
-		
-		
-	
-		
+		<div class="amostra1 p-3">
+			<div class="amostra2  p-1 ">
+				<div class="pro2">
+					<p>Tortas</p>
+				</div>
+				<div class="img">
+					<a href="" target="blanck">
+					<img src="img/produtos/produto03.jpg"  width="530px" alt="tortsa da casa"class="imgamostra "/></a>
+				</div>
+				
+				<div class="preco1">
+					<h3 class="preco3">R$:00,00</h3>
+					<h3 class="preco3"><a href="#" target="blanck">COMPRAR</a></h3>
+				</div>
+			</div>
+			<div class="amostra2  p-1 ">
+				<div class="pro2">
+					<p>Sorvete</p>
+				</div>
+				<div class="img">
+					<a href="" target="blanck">
+					<img src="img/produtos/produto01.jpg" width="530px" alt="tortsa da casa" class="imgamostra " /></a>
+				</div>
+				
+				<div class="preco1">
+					<h3 class="preco3">R$:00,00</h3>
+					<h3 class="preco3"><a href="#" target="blanck">COMPRAR</a></h3>
+				</div>
+			</div>
+			
+		</div>
 	</section>
 	<!--start produtos-->
-	<section id="produtos" class="clearfix">
-		<h2 class="pro01">Nossos Produtos</h2>
-		<div class="pro">
-			
-			<div >
-				<p class="pro_02">Tortas</p>
-				<img src="img/produtos/produto03.jpg" width="150px" alt="tortsa da casa"/>
-				<h3 class="esq meio">R$:00,00</h3>
-				<h3 class="dir meio"><a href="#" target="blanck">COMPRAR</a></h3>
-			</div>
-			<div >
-				<p class="pro_02">Tortas</p>
-				<img src="img/produtos/produto03.jpg" width="150px" alt="tortsa da casa"/>
-				<h3 class="esq meio">R$:00,00</h3>
-				<h3 class="dir meio"><a href="#" target="blanck">COMPRAR</a></h3>
-			</div>
+	<section id="produtos" class="row respansive float p-3">
+		<div class="pro01 p-3">
+			<p >Nossos Produtos</p>
 		</div>
-		<div class="pro">
-			
-			<div>
-				<p class="pro_02">Tortas</p>
-				<img src="img/produtos/produto03.jpg" width="150px" alt="tortsa da casa"/>
-				<h3 class="esq meio">R$:00,00</h3>
-				<h3 class="dir meio"><a href="#" target="blanck">COMPRAR</a></h3>
+		<div class="produto1">
+			<div class="produto2">
+				<div class="pro02 p-2">
+					<p>Tortas</p>
+				</div>
+				<div class="img">
+					<a href="" target="blanck">
+					<img src="img/produtos/produto03.jpg" width="300" alt="tortsa da casa" /></a>
+				</div>
+				
+				<div class="preco">
+					<h3 class="">R$:00,00</h3>
+					<h3 class=""><a href="#" target="blanck">COMPRAR</a></h3>
+				</div>
 			</div>
-			<div>
-				<p class="pro_02">Tortas</p>
-				<img src="img/produtos/produto03.jpg" width="150px" alt="tortsa da casa"/>
-				<h3 class="esq meio">R$:00,00</h3>
-				<h3 class="dir meio"><a href="#" target="blanck">COMPRAR</a></h3>
+			<div class="produto2">
+				<div class="pro02 p-2">
+					<p>Tortas</p>
+				</div>
+				<div class="img">
+					<a href="" target="blanck">
+					<img src="img/produtos/produto03.jpg" width="300" alt="tortsa da casa" /></a>
+				</div>
+				
+				<div class="preco">
+					<h3 class="">R$:00,00</h3>
+					<h3 class=""><a href="#" target="blanck">COMPRAR</a></h3>
+				</div>
+			</div>
+			<div class="produto2">
+				<div class="pro02 p-2">
+					<p>Tortas</p>
+				</div>
+				<div class="img">
+					<a href="" target="blanck">
+					<img src="img/produtos/produto03.jpg" width="300" alt="tortsa da casa" /></a>
+				</div>
+				
+				<div class="preco">
+					<h3 class="">R$:00,00</h3>
+					<h3 class=""><a href="#" target="blanck">COMPRAR</a></h3>
+				</div>
+			</div>
+			<div class="produto2">
+				<div class="pro02 p-2">
+					<p>Tortas</p>
+				</div>
+				<div class="img">
+					<a href="" target="blanck">
+					<img src="img/produtos/produto03.jpg" width="300" alt="tortsa da casa" /></a>
+				</div>
+				
+				<div class="preco">
+					<h3 class="">R$:00,00</h3>
+					<h3 class=""><a href="#" target="blanck">COMPRAR</a></h3>
+				</div>
 			</div>
 		</div>
 		
-	
-		
 	</section>
-	<!--end produtos-->
-	
-	<!-- start propaganda1-->
-	<section id="propaganda1">
-	
-	</section>
-	<!--end propaganda1-->
-	
-	<!--start novidades-->
-	<section id="novidades">
-	
-	</section>
-	<!--end novidades-->
-	
-	<!-- start propaganda2-->
-	<section id="propaganda2">
-	
-	</section>
-	<!--end propaganda2s-->
-	
-	<!--start comentarios-->
-	<section id="comentarios">
-	
-	</section>
-	<!--end comentarios-->
-	
-	<!-- produtos-->
-	<section id="rodape">
-	
-	</section>
-	<!-- produtos-->
-	<!-- produtos-->
-	<footer>
 
+	<section id="propaganda1" class=" row respansive container float">
+
+	</section>
 	
-	<!-- produtos-->
-<dov></dov>
+	<section id="novidades" class="row respansive container float ">
+		<div class="pro01 ">
+			<p >Mais Novidades</p>
+		</div>
+		<div class="novidade1  ">
+			<div class="novidade2 p-2">
+				<div class="pro02 p-2">
+					<p>Tortas</p>
+				</div>
+				<div class="img">
+					<a href="" target="blanck">
+					<img src="img/imgburg/9900816.jpg" width="200" alt="tortsa da casa"/></a>
+				</div>
+				
+				<div class="preco">
+					<h3 class="">R$:00,00</h3>
+					<h3 class=""><a href="#" target="blanck">COMPRAR</a></h3>
+				</div>
+			</div>
+			<div class="novidade2 p-2">
+				<div class="pro02 p-2">
+					<p>Tortas</p>
+				</div>
+				<div class="img">
+					<a href="" target="blanck">
+					<img src="img/imgburg/imagem-receita-de-hamburguer-americano.jpeg" width="300" alt="tortsa da casa"/></a>
+				</div>
+				
+				<div class="preco">
+					<h3 class="">R$:00,00</h3>
+					<h3 class=""><a href="#" target="blanck">COMPRAR</a></h3>
+				</div>
+			</div>
+			<div class="novidade2 p-2">
+				<div class="pro02 p-2">
+					<p>Tortas</p>
+				</div>
+				<div class="img">
+					<a href="" target="blanck">
+					<img src="img/imgburg/capa-hamburguer-washington-post-f3627cf0-960x400.jpg" width="300" alt="tortsa da casa"/></a>
+				</div>
+				
+				<div class="preco">
+					<h3 class="">R$:00,00</h3>
+					<h3 class=""><a href="#" target="blanck">COMPRAR</a></h3>
+				</div>
+			</div>
+			<div class="novidade2 p-2">
+				<div class="pro02 p-2">
+					<p>Tortas</p>
+				</div>
+				<div class="img">
+					<a href="" target="blanck">
+					<img src="img/imgburg/fd0f9b270b288f010303b0fb2039abd2_hamburguer-caseiro-toque-brasileiro-receitas-nestle.jpg" width="300" alt="tortsa da casa"/></a>
+				</div>
+				
+				<div class="preco">
+					<h3 class="">R$:00,00</h3>
+					<h3 class=""><a href="#" target="blanck">COMPRAR</a></h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="propaganda2" class="row  respansive container float" >
+
+	</section>
+	
+	<footer class="row respansive container float ">
+		<p>© 2021 RafaGourmet, todos os direitos .</p>
+	</footer>
 </body>
 </html>
