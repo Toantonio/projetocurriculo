@@ -1,12 +1,18 @@
-.cblaranja{
+.bglaranja{
     background-color: rgb(241, 186, 84)
 }
 .laranja{
-    color: rgb(241, 186, 84)
+    color: rgb(245, 129, 6)
 }
-.cbazul{
+.bgazul{
     background-color: #2e5566;
 }
 .azul{
-    
+    color: #2e5566;
+}
+.bgazul-c{
+    background-color: #7fdaee;
+}
+.azul-c{
+    color: #7fdaee;
 }

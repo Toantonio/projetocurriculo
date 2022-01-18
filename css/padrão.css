@@ -17,7 +17,11 @@
 .col-10{width: calc(8.333% * 10);/*83.33%;*/}
 .col-11{width: calc(8.333% * 11);/*91.663%;*/}
 .col-12{width: calc(8.333% * 12);/*100%*/}
-
+[class*="col-"] {
+    float: left;
+    /* padding: 10px; */
+    /* border: 1px solid red; */
+}
 .float {float: left;} 
 .row::after{ /*equivalente ou clearfix*/
     content: "";clear: both;display: table;}
