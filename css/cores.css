@@ -1,0 +1,17 @@
+.bg-white { background-color: #eee;}
+.white { color: #eee}
+
+.bg-blue { background-color: #2e5566;}
+.blue {color:#2e5566;}
+
+.bg-orang{ background-color: rgb(241, 186, 84)0;}
+.orang { color: rgb(241, 186, 84);}
+
+.bg-black {background-color: #201e1e;}
+.black { color: #201e1e;}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+    border: 1px solid red;
+}
