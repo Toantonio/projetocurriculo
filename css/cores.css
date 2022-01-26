@@ -7,11 +7,24 @@
 .bg-orang{ background-color: rgb(241, 186, 84);}
 .orang { color: rgb(241, 186, 84);}
 
+.bg-orang1{ background-color: #f0a211;}
+.orang1 { color: #f0a211;}
+
 .bg-black {background-color: #201e1e;}
 .black { color: #201e1e;}
 
-[class*="col-"] {
+ [class*="col-"] {
     float: left;
     padding: 10px;
     border: 1px solid red;
+
+}
+/* border */
+.bor-1{
+     border-color: ;
+}
+[class*="bor"] {
+    float: left;
+    padding: 10px;
+    border: 1px solid #eee;
 }
