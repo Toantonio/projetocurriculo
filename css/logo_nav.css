@@ -1,19 +1,11 @@
 header{ 
     background-color: #2e5566;
     height: 80px;	
-    float: left;
 }
 .logo{
     text-align: center;
+    min-height:80px ;
 }
 .imglogo{
-    /* background-image: url(../RafaGourmetlogo.png);
-    background-size: cover;
-    background-position: center; */
-    height: 80px;
-    /* float: left; */
-    
-}
-nav{
-	position: sticky; top: 0;
+    height: 80px; 
 }
