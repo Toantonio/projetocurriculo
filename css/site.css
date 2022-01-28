@@ -3,13 +3,19 @@
 	background-color: rgb(73, 9, 194);
 	height:auto;
 }
-#demonstracao .img{
-	background-image: url(../img/produtos/p1.jpg);
+.valor p input{
+	margin: -2;
+	padding:-10;
+}
+#produtos{
+	height: auto;
+}
+/* .produtos .img{
+	background-image: url(../img/produtos/bake-1003685_960_720.jpg);
 	background-size: cover;
-}
-#produtos_novos{
-	height: 500px;
-}
+	background-position: center;
+ } */
+
 #propaganda1{
 
 	background-image: url(../img/propaganda/p200x1000-01.jpg);	
@@ -30,19 +36,14 @@
 	height: auto;
 }
 .novidade1{ }
-	
-
 .areasocial{
 
 	
 }
-
-
 .novidade2{
 text-align: center;
 
 }
-
 footer{
 	background-color: #20B2AA;
 	height:auto;
