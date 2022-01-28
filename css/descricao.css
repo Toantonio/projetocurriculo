@@ -1,0 +1,11 @@
+#descricao{
+    height: auto;
+    /* background-color: blue; */
+}
+.img-1 .img-2{
+    /* float: right; */
+    position: absolute;
+    margin-top: 20px;
+   
+
+}
