@@ -1,0 +1,11 @@
+header{ 
+    background-color: #2e5566;
+    height: 80px;	
+}
+.logo{
+    text-align: center;
+    min-height:80px ;
+}
+.imglogo{
+    height: 80px; 
+}
