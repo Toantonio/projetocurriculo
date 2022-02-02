@@ -1,6 +1,6 @@
 header{ 
     background-color: #2e5566;
-    min-height: 80px;	
+    height: 80px;	
 }
 .logo{
     text-align: center;
@@ -8,7 +8,4 @@ header{
 }
 .imglogo{
     height: 80px; 
-}
-.img-1{
-    width: 100%;
 }
