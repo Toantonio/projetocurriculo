@@ -3,7 +3,9 @@
 
 .bg-white { background-color: #eee;}
 .white { color: #eee}
-
+.bg-white1{
+    background-color: rgb(216, 216, 216);
+}
 .bg-blue { background-color: #2e5566;}
 .blue {color:#2e5566;}
 
@@ -16,19 +18,18 @@
 .bg-black {background-color: #201e1e;}
 .black { color: #201e1e;}
 
+.bg-red{
+    background-color: #f00b3c;
+}
 /*borda*/
-.bor_1{
-    border: 1px solid  rgb(241, 186, 84) ;
+
+[class*="border-"] {
+    /* padding: 10px; */
+   border:4px solid #a3daf1;
 }
+
  [class*="col-"] {
-    float: left;
-    padding: 10px;
-    border: 1px solid red;
-
+  
+    /* border: 1px solid red; */
 }
 
-[class*="bor"] {
-    float: left;
-    padding: 10px;
-    border: 1px solid #eee;
-}
